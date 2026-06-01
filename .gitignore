@@ -1,0 +1,187 @@
+#############################
+#   SISTEMA OPERATIVO       #
+#############################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#############################
+#     EDITORES / IDEs       #
+#############################
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.sln.docstates
+*.rsuser
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+
+# Otros (swap/temp de editores)
+*.swp
+*.swo
+
+#############################
+#    DEPENDENCIAS WEB       #
+#############################
+
+# Node.js
+node_modules/
+
+# pnpm
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+
+# npm
+npm-debug.log*
+
+#############################
+#   HERRAMIENTAS DE BUILD   #
+#############################
+
+# Output de build (Vite, React, Vue, Angular, etc.)
+dist/
+build/
+out/
+publish/
+artifacts/
+
+# Bundlers
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+
+#############################
+#   COMPILACIÓN .NET        #
+#############################
+
+bin/
+obj/
+TestResults/
+.publish/
+
+#############################
+#   JAVA / JVM              #
+#############################
+
+target/
+*.class
+.gradle/
+.gradle-cache/
+
+#############################
+#   PYTHON                  #
+#############################
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+env/
+
+#############################
+#   PAQUETES / NUGET        #
+#############################
+
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+#############################
+#   RUNTIME / BINARIOS      #
+#############################
+
+*.dll
+*.exe
+*.pdb
+*.zip
+*.vsix
+
+#############################
+#   CONFIGURACIONES LOCALES #
+#############################
+
+# User secrets
+secrets.json
+local.settings.json
+
+# ASP.NET
+appsettings.Development.json
+
+# Variables de entorno
+.env
+.env.*.local
+.env.local
+
+# Claves y certificados
+*.key
+*.pem
+*.crt
+
+#############################
+#   BASES DE DATOS LOCALES  #
+#############################
+
+*.db
+*.sqlite
+*.db-shm
+*.db-wal
+
+#############################
+#   LOGS / TEMPORALES       #
+#############################
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+
+#############################
+#   COVERAGE / TEST         #
+#############################
+
+coverage/
+*.coverage
+*.coveragexml
+coverage-report/
+*.lcov
+
+#############################
+#   DOCKER / CONTENEDORES   #
+#############################
+
+docker-compose.override.yml
+*.tar
+*.img
+
+#############################
+#   CI/CD / MISC            #
+#############################
+
+# GitHub Actions temp
+*.workflow-temp/
